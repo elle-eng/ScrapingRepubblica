@@ -52,14 +52,21 @@ def scraping_articolo_cartaceo(page):
         paragraph = p.text_content().strip()
         if paragraph:
             paragraphs.append(paragraph)
-       
-    print('paragraphs',paragraphs)
 
     article["content"] = "\n\n".join(paragraphs)
 
     save_article_in_xml(article)
 
-link_ricerca = "https://ricerca.repubblica.it/ricerca/repubblica?query=climatico+climatica&fromdate=2020-01-01&todate=2025-06-29&sortby=score&author=&mode=any"
+
+def get_search_link(start_date, end_date = None, step = 5, page = 1):
+    return f"https://ricerca.repubblica.it/ricerca/repubblica?query=climatico+climatica&fromdate={start_date}&todate={end_date if end_date != None else build_date_from_step(start_date, step)}&sortby=adate&author=&mode=any"
+
+def build_date_from_step(start_date, step):
+    l_date_str = start_date.split('-')
+    l_date_str[0] = str(int(l_date_str[0]) + step)
+    return "-".join(l_date_str)
+
+link_ricerca = get_search_link('2020-01-01', '2025-06-29')
 email_google = 'elena.zanet@uniupo.it'
 pass_google = 'GiuniRusso_2024'
 
@@ -93,14 +100,32 @@ with sync_playwright() as p:
 
     pages  = int(page.locator('.pagination p').text_content().split(' ')[-1])
     for page_num in range(pages):
-        page.goto(link_ricerca + '&page=' + str(page_num+1))
+        print('page:',page_num)
 
-        page.wait_for_selector('section#lista-risultati article h1 a')
+        url = link_ricerca + '&page=' + str(page_num+1)
+        page.goto(url)
+
+        try:
+            page.wait_for_selector('section#lista-risultati article h1 a')
+        except Error as e:
+            print(e)
+            continue
+ 
+        times_container = page.locator('section#lista-risultati article time')
+        times = times_container.evaluate_all("elements => elements.map(el => el.getAttribute('datetime'))")
+        if page_num%50==0:
+            page.close()
+            page = context.new_page()
+            link_ricerca = get_search_link(times[-1], step=5,page = page_num+1)
+            page.goto(link_ricerca)
+
         links = page.locator('section#lista-risultati article h1 a')
         hrefs = links.evaluate_all("links => links.map(link => link.href)")
-        # print('page:',page_num,'- hrefs:',len(hrefs))
 
         for href in hrefs:
+            print('link:',href)
+            if 'video.repubblica.it' in href:
+                continue
             try:
                 page.goto(href)
                 isDigitale = page.locator('main article.story').count() > 0

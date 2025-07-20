@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article><type>digitale</type><title>Se l’auto vede oltre il muro all'angolo (e salva i pedoni)</title><subtitle /><author>
+			
+				di FABIO ORECCHINI
+			
+		</author><date>14 Febbraio 2020</date><content>
+        La tecnologia militare sta per sbarcare sulle automobili. O meglio, si apprestano a entrare nella normalità alcune caratteristiche finora attribuite soltanto ai supereroi dei fumetti.
+
+L’azienda israeliana Visiblezone, nata pochi mesi fa a Gerusalemme su iniziativa dei tre fondatori Gabi Ofir, Shmulik Barel e Eliq Oster, quest’ultimo proveniente direttamente dal gruppo di ricerca operativa del ministero della Difesa, sta mettendo a punto una tecnologia che permette all’auto di vedere attraverso gli oggetti.
+
+
+
+	
+	
+	
+	
+		
+		Quando l'auto "vede" oltre l'angolo della strada: come funziona Visiblezone
+		
+			
+				
+					
+						
+					
+					
+				
+			
+		
+	    
+	
+		kwait.push(["video_js", function(){
+		VideoEmbed.main(".bottom-wrapper");
+		VideoEmbed.addIframe("player_ex_248612429", "https://video.repubblica.it/embed/motori/quando-l-auto-vede-oltre-l-angolo-della-strada-come-funziona-visiblezone/354025/354593?adref=https://www.repubblica.it/motori/sezioni/sicurezza/2020/02/15/news/se_l_auto_vede_oltre_il_muro_all_angolo_e_salva_i_pedoni_-248610314/&amp;generation=pageload&amp;responsive=true&amp;pm=true&amp;pl_listen=true&amp;el=player_ex_248612429&amp;mode=embed", 316, 178, true, false);
+		}]);
+	
+
+
+
+In particolare, la Visiblezone mira ad evitare la collisione tra auto e pedoni grazie esclusivamente all’integrazione di un nuovo codice software sul veicolo e negli smartphone. Senza la necessità di componenti aggiuntivi, quindi, l’auto diventa capace di individuare un pedone che sta per attraversare la strada ancora prima che inizi a farlo e perfino se è coperto alla vista del conducente da un ostacolo, come un muro o un veicolo commerciale parcheggiato.
+
+Rendere visibile l’invisibile, questa è la missione che la nuova tecnologia riesce già a compiere efficacemente nei test su strada a Gerusalemme. Il sistema è realizzato per poter operare in ogni situazione climatica e senza vincoli di luminosità, con un raggio d’azione di 180 metri più che sufficiente per poter frenare il veicolo fino all’arresto nella maggior parte delle situazioni.
+
+L’unica condizione necessaria perché il pedone possa essere visto e monitorato dal sistema di bordo è che abbia con sé uno smartphone con installata l’applicazione Visiblezone. La tecnologia si basa sullo scambio di segnali radio tra il telefono del pedone e l’auto in arrivo. Il segnale è emesso con la frequenza di 2,4 GHz, la stessa utilizzata dalla rete wi-fi.
+
+L’app della Visiblezone non è ancora disponibile e il software non equipaggia ancora alcuna auto, al di fuori della piccola flotta sperimentale della società in Israele. Ma la Hyundai, attraverso la sua controllata Hyundai Cradle di Tel Aviv dedicata proprio all’individuazione di nuove start-up nelle quali investire, e altri grandi costruttori guardano alla soluzione con grande interesse e il tempo per l’arrivo a bordo potrebbe essere molto breve.
+
+L’intelligenza artificiale è alla base anche di un’altra soluzione in arrivo, chiamata MdGo e dedicata alla massima efficacia dei soccorsi ai feriti in caso di incidente automobilistico. Il principale problema di soccorritori e medici per limitare e curare le conseguenze di un incidente, infatti, è la scarsità di informazioni in loro possesso sulla dinamica dell’impatto e sui traumi subiti dal ferito. In pratica, chi arriva sul posto ha a disposizione al massimo una ricostruzione sommaria fornita da testimoni e l’osservazione diretta dello stato dei fatti.
+
+Chi deve intervenire subito dopo in ospedale può fare a sua volta affidamento soltanto su ciò che viene riferito dai soccorritori e su quello che riferisce il ferito, se è in grado di parlare, per decidere che tipo di esami avviare e come intervenire. Con MdGo, soluzione già adottata dai centri di controllo che gestiscono le ambulanze in Israele, l’automobile invia direttamente al primo soccorso e al sistema ospedaliero, oltre che all’assicurazione del veicolo, informazioni precise sulla dinamica dell’incidente e sulle conseguenze prevedibili per gli occupanti delle auto coinvolte.
+
+Dalla fase sperimentale e dai primi mesi di applicazione reale, emerge che l’accuratezza delle informazioni fornite dal sistema Md- Go sulle conseguenze degli incidenti, ricavate dall’analisi con logiche di intelligenza artificiale dei dati forniti da sensori di bordo già oggi presenti sulle auto, va ben oltre l’80%. Un salto epocale rispetto alle attuali prime valutazioni a vista di infermieri e medici anche esperti.
+
+Nell’azienda israeliana, fondata a Tel Aviv dal giovane medico Itay Bengad e dai due ingegneri Gilad Avrashi e Eli Zerah, hanno già investito milioni di euro la Hyundai, la Volvo e alcuni fondi internazionali.
+    </content></article>

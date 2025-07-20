@@ -6,7 +6,6 @@ def save_article_in_xml(article):
     global i 
 
     root = ET.Element("article")
-    print('article', article)
     ET.SubElement(root, "type").text = article["type"]
     ET.SubElement(root, "title").text = article["title"]
     ET.SubElement(root, "subtitle").text = article["subtitle"]
