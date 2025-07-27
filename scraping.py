@@ -59,14 +59,13 @@ def scraping_articolo_cartaceo(page):
 
 
 def get_search_link(start_date, end_date = None, step = 5, page = 1):
-    return f"https://ricerca.repubblica.it/ricerca/repubblica?query=climatico+climatica&fromdate={start_date}&todate={end_date if end_date != None else build_date_from_step(start_date, step)}&sortby=adate&author=&mode=any"
+    return f"https://ricerca.repubblica.it/ricerca/repubblica?query=climatico+climatica&fromdate={start_date}&todate={end_date if end_date != None else build_date_from_step(start_date, step)}&sortby=adate&author=&mode=any&page={page}"
 
 def build_date_from_step(start_date, step):
     l_date_str = start_date.split('-')
     l_date_str[0] = str(int(l_date_str[0]) + step)
     return "-".join(l_date_str)
 
-link_ricerca = get_search_link('2020-01-01', '2025-06-29')
 email_google = 'elena.zanet@uniupo.it'
 pass_google = 'GiuniRusso_2024'
 
@@ -96,13 +95,18 @@ with sync_playwright() as p:
     page.wait_for_selector("text='Continua senza accettare'")
     page.click("text='Continua senza accettare'")
 
-    page.goto(link_ricerca)
+    start_date = '2020-01-01'
 
+    page.goto(get_search_link(start_date, '2025-06-29'))
+
+    VINCOLO_PAGINE_REPUBBLICA = 50
+  
     pages  = int(page.locator('.pagination p').text_content().split(' ')[-1])
-    for page_num in range(pages):
+    page_num = 1
+    while page_num <= pages:
         print('page:',page_num)
 
-        url = link_ricerca + '&page=' + str(page_num+1)
+        url = get_search_link(start_date, step=5,page=str(page_num))
         page.goto(url)
 
         try:
@@ -113,12 +117,21 @@ with sync_playwright() as p:
  
         times_container = page.locator('section#lista-risultati article time')
         times = times_container.evaluate_all("elements => elements.map(el => el.getAttribute('datetime'))")
-        if page_num%50==0:
+
+        times_file = open('times.txt','w')
+        line = f"page: {page_num}, times: {times}, last time: {times[-1]}\n"
+        times_file.write(line)
+        times_file.close()
+
+        if page_num%VINCOLO_PAGINE_REPUBBLICA==0:
+            page_num = 1
             page.close()
             page = context.new_page()
-            link_ricerca = get_search_link(times[-1], step=5,page = page_num+1)
+            start_date=times[-1]
+            link_ricerca = get_search_link(start_date, step=5)
             page.goto(link_ricerca)
-
+        else: 
+            page_num+=1
         links = page.locator('section#lista-risultati article h1 a')
         hrefs = links.evaluate_all("links => links.map(link => link.href)")
 
