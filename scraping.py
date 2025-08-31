@@ -95,7 +95,7 @@ with sync_playwright() as p:
     page.wait_for_selector("text='Continua senza accettare'")
     page.click("text='Continua senza accettare'")
 
-    start_date = '2020-01-01'
+    start_date = '2024-06-19'
 
     page.goto(get_search_link(start_date, '2025-06-29'))
 

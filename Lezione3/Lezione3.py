@@ -26,6 +26,7 @@ print(numeri.index(12))
 # numeri[1] = 1000
 
 # dict - una sequenza non ordinata di coppie chiave-valore
+#
 persona = {
     "nome": "Andrei",
     "eta": 25,
@@ -35,6 +36,13 @@ persona = {
 
 print(persona["nome"])
 print(persona[('a','b')])
+
+persona['patente'] = True
+print(persona)
+
+del persona[1] #per eliminare una coppia (si utilizza la chiave)
+print(persona)
+
 
 #set
 # casting
