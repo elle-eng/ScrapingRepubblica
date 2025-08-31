@@ -1,28 +1,29 @@
-from playwright.sync_api import sync_playwright
+from scrap_utils_leonardo import scrap_section
 
-url = "https://www.leonardo.com/it/media-hub/news-stories?_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_formDate=1756653175484&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_filterDateTo=31.08.2025&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_filterTypeCategories=16624027%2C16624028&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_filterDateFrom=01.01.2020&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_dataFilterTypeReq=Year&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_page=1"
+#NOTIZIE
+leonardo_news_selectors = {
+    "subtitle":"div.internal-header--description",
+    "date":"div.hero-slide--content--description",
+    "content": "div.check-html-content"
+}
+# scrap_section(
+#     "news"
+#     "div.news-stories-card",
+#     leonardo_news_selectors,
+#     "scraping/leonardo/news",
+#     "https://www.leonardo.com/it/media-hub/news-stories?_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_formDate=1756653175484&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_filterDateTo=31.08.2025&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_filterTypeCategories=16624027%2C16624028&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_filterDateFrom=01.01.2020&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_dataFilterTypeReq=Year"
+# )
 
-with sync_playwright() as p:
-    browser = p.chromium.launch(headless=False)
-    page = browser.new_page()
-
-    page.goto(url)
-
-    page = 1
-    pages = 1
-
-    try:
-        page.wait_for_selector('div.journal-content-article')
-        pages = page.query_selector_all('div.leo-pagination--item a.leo-pagination--item--link')[-2].inner_text()
-        print('pages:',pages)
-    except:
-        print("selettore 'div.journal-content-article' non trovato.")
-
-    contenuti = page.query_selector_all('div.news-stories-card')
-
-    urls = [c.query_selector('a').get_attribute('href') for c in contenuti]
-    print(urls)
-
-
-
-    
+#STAMPA
+leonardo_stampa_selectors = {
+    "subtitle":None,
+    "date":"p.content-secondary",
+    "content": "div.check-html-content",
+}
+scrap_section(
+    "stampa",
+    "h3.press-release-card--content--title",
+    leonardo_stampa_selectors,
+    "scraping/leonardo/stampa",
+    "https://www.leonardo.com/it/media-hub/press-releases?_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_page=2&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_filterDateFrom=01.01.2020&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_filterDateTo=31.08.2025&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_dataFilterTypeReq=Year"
+)

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<news><type>news</type><title>Tecnologia e innovazione per la tutela di monumenti e siti archeologici</title><subtitle>Si celebra oggi la Giornata Internazionale dei Monumenti e dei Siti, promossa dall’ICOMOS (International Council on Monuments and Sites) e istituita dall’UNESCO nel 1983. La Giornata nasce per promuovere la consapevolezza della diversità e della vulnerabilità del patrimonio culturale, nonché degli sforzi necessari per proteggerlo e conservarlo, incoraggiando gli individui di tutto il mondo a riconoscere la sua importanza per le loro identità e comunità.</subtitle><author /><date>18 aprile 2024</date><content>Il patrimonio culturale ha fondamentali ricadute economiche e sociali per il territorio di appartenenza, e per questo la sua salvaguardia rappresenta una priorità per gli enti che lo gestiscono. A tal fine, l’innovazione tecnologica può fornire degli strumenti all’avanguardia per monitorare, proteggere e conservare monumenti e siti archeologici.
+
+e-GEOS, in prima linea nello sviluppo di soluzioni di geo-informazione per salvaguardare il pianeta e il suo patrimonio, ha recentemente preso parte, come contractor della capogruppo Leonardo, alla realizzazione di un sistema di monitoraggio integrato e gestione delle emergenze per il Parco Archeologico di Sibari, basato sull’utilizzo della piattaforma di data intelligence di Leonardo, specializzata nel monitoraggio ambientale e dei beni culturali, e in grado di integrare e gestire dati da monitoraggio remoto e reti di sensoristica e sorveglianza in sito.
+ 
+
+ 
+
+L’area interessata dal Parco è estremamente vulnerabile dal punto di vista ambientale, in particolare in quanto esposta alle frequenti esondazioni del vicino corso del fiume Crati.
+
+In questo contesto, e-GEOS ha realizzato due catene di monitoraggio, dedicate rispettivamente all’osservazione del rischio di instabilità del terreno e al rischio idraulico: la prima basata sulla metodologia INSAR e sull’utilizzo di dati COSMO-SkyMed, la seconda su dati meteo dell’Aeronautica Militare processati da un modello di Intelligenza Artificiale addestrato ad hoc.
+
+Il monitoraggio interferometrico viene eseguito offline a cadenze temporali definite e le informazioni sugli spostamenti del terreno che ne derivano vengono messe a disposizione degli utenti attraverso i servizi di visualizzazione e interrogazione della piattaforma di data intelligence di Leonardo. Analisi più approfondite e specialistiche del dato possono essere condotte sulla piattaforma AWARE di e-GEOS, accessibile dal sistema principale.
+ 
+
+ 
+
+L’analisi del rischio idraulico, invece, avviene modellando i dati meteo sull’area e attivando automaticamente la produzione di mappe di rischio previsionale ogni volta che i parametri meteo raggiungono valori soglia considerati di rischio. Il risultato di questa elaborazione restituisce mappe di velocità e di profondità delle acque esondate, che descrivono le probabili conseguenze della situazione meteo in evoluzione, consentendo in tal modo di adottare precocemente misure di contenimento del danno.
+ 
+
+
+La metodologia utilizzata consente anche la previsione della probabilità di rottura dell’argine del bacino del Crati, con individuazione dei punti maggiormente a rischio.
+ 
+
+
+Nella Giornata Internazionale dei Monumenti e dei Siti, e-GEOS riafferma, insieme a Leonardo, il proprio impegno nel fornire le proprie competenze e innovazioni nel campo dell’Osservazione della Terra, per tramandare la bellezza del nostro patrimonio culturale.</content></news>
