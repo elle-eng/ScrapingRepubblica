@@ -20,13 +20,13 @@ def scraping_section_details(page,content_details_selectors,path,type):
     except AttributeError as e:
         print(e)
 
-def scrap_section(type,content_selector,content_details_selectors,path,url):
+def scrap_section(type,content_selector,content_details_selectors,path,url,n_bug_annunci_ripetuti):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         context = browser.new_context()
         page = context.new_page()
 
-        url = url + f'&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_page=1'
+        new_url = url + f'&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_page=1'
 
         page.goto(url)
 
@@ -36,12 +36,13 @@ def scrap_section(type,content_selector,content_details_selectors,path,url):
 
         for page_num in range(1,pages+1):
             page = context.new_page()
-            page.goto(url)
+            new_url = url + f'&_com_leonardocompany_list_content_viewer_portlet_ListContentViewerPortlet_page={page_num}'
+            page.goto(new_url)
             contenuti = page.query_selector_all(content_selector)
 
-            urls = [c.query_selector('a').get_attribute('href') for c in contenuti]
-            for url in urls:
-                print('page:',page_num,'url:',url)
-                page.goto(url)
+            urls = [c.query_selector('a').get_attribute('href') for c in contenuti][n_bug_annunci_ripetuti:]
+            for uri in urls:
+                print('page:',page_num,'url:',uri)
+                page.goto(uri)
                 scraping_section_details(page, content_details_selectors,path,type)
             page.close()

@@ -1,26 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<news><type>news</type><title>Tecnologia e innovazione per la tutela di monumenti e siti archeologici</title><subtitle>Si celebra oggi la Giornata Internazionale dei Monumenti e dei Siti, promossa dall’ICOMOS (International Council on Monuments and Sites) e istituita dall’UNESCO nel 1983. La Giornata nasce per promuovere la consapevolezza della diversità e della vulnerabilità del patrimonio culturale, nonché degli sforzi necessari per proteggerlo e conservarlo, incoraggiando gli individui di tutto il mondo a riconoscere la sua importanza per le loro identità e comunità.</subtitle><author /><date>18 aprile 2024</date><content>Il patrimonio culturale ha fondamentali ricadute economiche e sociali per il territorio di appartenenza, e per questo la sua salvaguardia rappresenta una priorità per gli enti che lo gestiscono. A tal fine, l’innovazione tecnologica può fornire degli strumenti all’avanguardia per monitorare, proteggere e conservare monumenti e siti archeologici.
+<news><type>news</type><title>Continua l’impegno di Leonardo nella decarbonizzazione e nella climate action</title><subtitle>È online il nuovo documento “Leonardo for Climate Action”, che testimonia l’impegno della nostra azienda sul tema del cambiamento climatico e illustra le strategie poste in atto per contrastarne gli effetti. </subtitle><author /><date>29 maggio 2024</date><content>“Leonardo for Climate Action” nasce dall’esigenza di condividere il nostro l’impegno sulla climate action con tutti gli stakeholder, con informazioni sulle modalità con cui l’azienda valuta e monitora i rischi e le opportunità legate ai cambiamenti climatici, in conformità allo standard della Task Force on Climate-related Financial Disclosure (TCFD) e con il racconto delle iniziative di decarbonizzazione, sia nei processi produttivi, sia nella realizzazione di prodotti e soluzioni sostenibili.
 
-e-GEOS, in prima linea nello sviluppo di soluzioni di geo-informazione per salvaguardare il pianeta e il suo patrimonio, ha recentemente preso parte, come contractor della capogruppo Leonardo, alla realizzazione di un sistema di monitoraggio integrato e gestione delle emergenze per il Parco Archeologico di Sibari, basato sull’utilizzo della piattaforma di data intelligence di Leonardo, specializzata nel monitoraggio ambientale e dei beni culturali, e in grado di integrare e gestire dati da monitoraggio remoto e reti di sensoristica e sorveglianza in sito.
- 
+La strategia climatica di Leonardo, in linea con gli obiettivi convalidati dalla Science-Based Target initiative (SBTi), è sostenuta da decisioni di investimento e pianificazione finanziaria che tengono conto dei parametri ambientali e climatici e si articola secondo un doppio binario.
 
- 
+Da un lato, con iniziative di decarbonizzazione dei processi legati al business, come ad esempio il progetto NEMESI, che punta a trasformare i siti di Pomigliano d’Arco e Nola in smart factory mediante sistemi di automazione e digitalizzazione applicati alla produzione delle fusoliere.
 
-L’area interessata dal Parco è estremamente vulnerabile dal punto di vista ambientale, in particolare in quanto esposta alle frequenti esondazioni del vicino corso del fiume Crati.
+Dall’altro, attraverso la realizzazione di prodotti e soluzioni abilitanti rispetto alle tematiche legate alla sostenibilità, come ad esempio i sistemi di Global Monitoring,  per valutare lo stato di salute della Terra, del clima e delle grandi infrastrutture, o con lo sviluppo di prodotti e soluzioni in grado di essere intrinsecamente efficienti, cioè di realizzare - durante il loro impiego – rilevanti benefici in termini di impatto ambientale, come i sistemi di training virtuale, gli elicotteri che utilizzano i carburanti SAF (Sustainable Aviation Fuels) o i sistemi di progettazione attraverso i digital twin.
 
-In questo contesto, e-GEOS ha realizzato due catene di monitoraggio, dedicate rispettivamente all’osservazione del rischio di instabilità del terreno e al rischio idraulico: la prima basata sulla metodologia INSAR e sull’utilizzo di dati COSMO-SkyMed, la seconda su dati meteo dell’Aeronautica Militare processati da un modello di Intelligenza Artificiale addestrato ad hoc.
-
-Il monitoraggio interferometrico viene eseguito offline a cadenze temporali definite e le informazioni sugli spostamenti del terreno che ne derivano vengono messe a disposizione degli utenti attraverso i servizi di visualizzazione e interrogazione della piattaforma di data intelligence di Leonardo. Analisi più approfondite e specialistiche del dato possono essere condotte sulla piattaforma AWARE di e-GEOS, accessibile dal sistema principale.
- 
+Negli ultimi quattro anni, Leonardo ha ridotto più del 40% delle emissioni dirette e indirette (Scope 1 e Scope 2) attraverso l’efficienza operativa e altre azioni di decarbonizzazione. Per quanto riguarda le emissioni Scope 3, l’azienda ha rafforzato il proprio impegno, sia nel ridurre le emissioni derivanti dalla catena di fornitura, sia nello sviluppo di prodotti e soluzioni a basse emissioni di carbonio.
 
  
 
-L’analisi del rischio idraulico, invece, avviene modellando i dati meteo sull’area e attivando automaticamente la produzione di mappe di rischio previsionale ogni volta che i parametri meteo raggiungono valori soglia considerati di rischio. Il risultato di questa elaborazione restituisce mappe di velocità e di profondità delle acque esondate, che descrivono le probabili conseguenze della situazione meteo in evoluzione, consentendo in tal modo di adottare precocemente misure di contenimento del danno.
- 
-
-
-La metodologia utilizzata consente anche la previsione della probabilità di rottura dell’argine del bacino del Crati, con individuazione dei punti maggiormente a rischio.
- 
-
-
-Nella Giornata Internazionale dei Monumenti e dei Siti, e-GEOS riafferma, insieme a Leonardo, il proprio impegno nel fornire le proprie competenze e innovazioni nel campo dell’Osservazione della Terra, per tramandare la bellezza del nostro patrimonio culturale.</content></news>
+Immagine di copertina: Colniza, Mato Grosso, Brasile. Immagine COSMO-SkyMed © ASI. Processata e distribuita da e-GEOS.</content></news>

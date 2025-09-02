@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<news><type>stampa</type><title>Leonardo: con GemaTEG per la gestione termica dei chip di nuova generazione</title><subtitle /><author /><date>Roma,  04 settembre 2024 10:50</date><content>La soluzione DaTEG, sviluppata da GemaTEG, permetterà di aumentare del 30% l’efficienza dei chip di nuova generazione nelle infrastrutture di Intelligenza Artificiale (IA) di Leonardo
+La collaborazione interessa il datacenter di Leonardo di Chieti per poi essere ampliata all’HPC davinci-1  
+
+ 
+
+Attivata la partnership tra Leonardo e GemaTEG per la riduzione dei costi energetici dei chip di nuova generazione utilizzati nelle infrastrutture di Intelligenza Artificiale (IA). Grazie alla innovativa soluzione integrata e modulare DaTEG, elaborata da GemaTEG e in grado di sviluppare il primo sistema attivo di gestione termica, verrà diminuito il footprint energetico dei datacenter e migliorata l'efficienza dei sistemi High Performing Computer (HPC) di Leonardo. 
+
+La partnership interessa i laboratori di GemaTEG e il datacenter Leonardo di Chieti per poi essere allargato, nell’ambito di una collaborazione che analizzerà un ampio spettro di applicazioni negli ambiti più rilevanti e a maggior impatto tecnologico, all’HPC davinci-1, il supercomputer di Leonardo. Obiettivo è ottenere un incremento medio dell’efficienza del 30% riducendo i consumi energetici con analogo incremento, in alcune configurazioni, delle prestazioni dei chip nelle infrastrutture di IA di Leonardo, coniugando innovazione e sostenibilità nel settore dell’IA.
+
+Grazie al controllo puntuale delle condizioni operative, DaTEG permette di adattare la potenza refrigerante in base alle condizioni di carico dei chip, seguendo un approccio “localized cooling”, ossia di raffreddamento localizzato che regola, in maniera dinamica, la temperatura di ogni singolo chip. I chip di nuova generazione - Central Processing Unit (CPU), Graphics Processing Unit (GPU), acceleratori - spinti dal fabbisogno prestazionale, producono infatti quantità di calore senza precedenti, passando da 300Watt-400Watt ad oltre 1000Watt che le tecnologie convenzionali di raffreddamento stentano a dissipare. Al conseguente surriscaldamento, i chip rispondono rallentando i cicli di calcolo e riducendo le prestazioni fino al 50%. 
+
+I benefici dalla adozione della soluzione DaTEG sono molteplici: viene incrementata la potenza di calcolo di ogni chip che, operando in regimi ottimali, mantiene invariate le prestazioni; tramite il raffreddamento localizzato, si interviene su ogni GPU del cluster indipendentemente, consentendo al sistema di inseguire ed eliminare i colli di bottiglia che insorgono in caso di surriscaldamento del chip; vengono minimizzati i consumi totali, in funzione dello sviluppo di strategie ottimizzate di gestione termica che mirano a raffreddare in maniera dinamica dove e quanto necessario. 
+
+Il sistema adattivo di gestione termica DaTEG consente quindi di perseguire contemporaneamente gli obiettivi di incremento della potenza di calcolo a parità di infrastruttura e la riduzione dei consumi energetici connessi al raffreddamento, coniugando i fabbisogni prestazionali con le esigenze di sostenibilità. 
+
+“L’avvio della partnership con GemaTEG rappresenta per Leonardo un significativo passo per garantire un incremento della velocità delle nostre applicazioni di Intelligenza Artificiale accompagnata da una sensibile diminuzione dell’impatto energetico complessivo, massimizzando il rapporto tra efficienza e sostenibilità delle nostre infrastrutture di HPC”, ha commentato Carlo Cavazzoni, Head of Digital Infrastructures di Leonardo.   
+
+"La partnership tra GemaTEG e Leonardo è una testimonianza del nostro impegno congiunto nel promuovere l'innovazione e la sostenibilità nel settore dell'intelligenza artificiale. Le nostre soluzioni innovative migliorano le performance dei chip e contribuiscono alla salvaguardia dell'ambiente, ottimizzando l'utilizzo delle risorse", ha affermato Maurizio Miozza, Co-Founder e CTO di GemaTEG.
+
+-----------------------------------------------------------------------------
+
+Leonardo 
+Leonardo è un gruppo industriale internazionale, tra le principali realtà mondiali dell’Aerospazio, Difesa e Sicurezza (AD&amp;S). Con 53mila dipendenti nel mondo, opera per la sicurezza globale attraverso i settori degli Elicotteri, Elettronica, Velivoli, Cyber &amp; Security e Spazio, ed è partner dei più importanti programmi internazionali del settore come Eurofighter, NH-90, FREMM, GCAP e Eurodrone. Leonardo dispone di rilevanti capacità produttive in Italia, Regno Unito, Polonia e USA, e si avvale anche di società controllate, joint venture e partecipazioni, tra cui Leonardo DRS (72,3%), MBDA (25%), ATR (50%), Hensoldt (22,8%), Telespazio (67%), Thales Alenia Space (33%) e Avio (29,6%). Quotata alla Borsa di Milano (LDO), nel 2023 Leonardo ha registrato nuovi ordini per 17,9 miliardi di euro, con un portafoglio ordini di 39,5 miliardi di euro e ricavi consolidati per 15,3 miliardi di euro. Inclusa anche nell’indice MIB ESG, l’azienda fa parte dal 2010 dei Dow Jones Sustainability Indices (DJSI).
+www.leonardo.com
+
+
+GemaTEG
+GemaTEG sviluppa soluzioni per la gestione termica che superano le limitazioni del settore IA, aumentando la capacità computazionale e riducendo i consumi. Fin dalla sua fondazione nel 2019, GemaTEG è impegnata a supportare la crescita dell’infrastruttura IA. Grazie alla vasta esperienza in ricerca e sviluppo e in innovazione sostenibile, l'azienda sviluppa soluzioni di gestione termica che migliorano notevolmente le prestazioni, riducono significativamente i costi e promuovono la sostenibilità per tutti gli stakeholder.
+www.gemateg.com
+
+ 
+
+Per ulteriori informazioni: 
+
+Leonardo
+
+Ufficio stampa: Tel: +39 06 32473313 leonardopressoffice@leonardo.com
+
+Investor Relations: Tel +39 0632473512 ir@leonardo.com
+
+ 
+
+GemaTEG Inc.
+
+Press &amp; Company Contact: Tel: +39 351 4347047 info@gemateg.com
+
+Investor Relations: federica@gemateg.com</content></news>
